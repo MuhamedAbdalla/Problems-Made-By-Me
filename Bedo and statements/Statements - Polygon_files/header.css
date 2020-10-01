@@ -1,0 +1,55 @@
+#header {
+    width: 100%;
+}
+
+#header .info {
+    float: left;
+    position: relative;
+    z-index: 1025;
+}
+
+#header .top-menu {
+    float: right;
+    margin: 0.5em 1em 0.5em 0.5em;
+    position: relative;
+    z-index: 1025;
+}
+
+#header .info .logo {
+    width: 75px;
+    height: 75px;
+}
+
+#header .info .title {
+    font-size: 200%;
+    margin: 10px;
+}
+
+#header .info .mission {
+    font-size:110%;
+    font-style:italic;
+    margin: 10px;
+    color: black;
+}
+
+div.infobar {
+    color: #3a87ad;
+    background-color: #d9edf7;
+    border-color: #bce8f1;
+}
+
+.infobar {
+    padding: 8px 35px 8px 14px;
+    margin-bottom: 20px;
+    text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
+    background-color: #fcf8e3;
+    border: 1px solid #fbeed5;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    line-height: 20px;
+    color: #333333;
+}
